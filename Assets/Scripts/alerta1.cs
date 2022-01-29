@@ -32,4 +32,8 @@ public class alerta1 : MonoBehaviour
     {
         transform.GetComponent<MeshRenderer>().material.color = colores;
     }
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes

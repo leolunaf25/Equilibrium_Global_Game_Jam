@@ -12,4 +12,8 @@ public class minijuegos : MonoBehaviour
     }
 
 
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes
