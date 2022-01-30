@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - npc
+  - npc2
+  - npc3
+  - fuego
   layers:
   - Default
   - TransparentFX

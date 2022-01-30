@@ -8,7 +8,7 @@ public class menu : MonoBehaviour
     // Start is called before the first frame update
     public void BotonStart()
     {
-        SceneManager.LoadScene("juego");
+        SceneManager.LoadScene("Assets");
     }
 
     public void BotonSalir()

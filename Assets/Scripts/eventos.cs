@@ -20,13 +20,13 @@ public class eventos : MonoBehaviour
     void Start()
     {
         time = 0.0f;
-        timeDelay = 5.0f;
+        timeDelay = 10.0f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        fenomeno = Random.Range(0,3);
+        fenomeno = Random.Range(1,4);
         time = time + 1.0f * Time.deltaTime;       
         
         if (fenomeno == 1 && time >= timeDelay && id != 1)
@@ -60,22 +60,4 @@ public class eventos : MonoBehaviour
             id = 3;
         }
     }
-/*
-    void Derrumbe()
-    {
-        Debug.Log("Hay un derrumbe en la zona");
-    }
-
-    void Erupcion()
-    {
-        Debug.Log("Hay una Erupción en la zona");
-
-    }
-
-    void Incendio()
-    {
-        Debug.Log("Hay un incendio forestal");
-    }
-*/
-
 }
